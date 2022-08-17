@@ -1,0 +1,54 @@
+.messages__tools{
+    display: grid;
+    grid-template-columns: 5% 85% 10%;
+    gap:2px;
+
+    width: 90%;
+    height: 25px;
+    margin: 0 auto;
+    margin-top: 5px;
+
+}
+
+.messages__tools button{
+    height: 100%
+}
+
+.messages__tools .input-file{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+@media screen and (max-width: 790px) {
+    .messages__tools{
+        grid-template-columns: 15% 65% 20%;
+    }
+
+    .messages__tools button{
+        font-size: .8rem;
+    }
+
+}   
+
+.messages{
+    width: 90%;
+    margin-top: 10px;
+    height: 70vh;
+    background-color: rgba(168, 168, 168, 0.219);
+
+    margin: 0 auto;
+    overflow: scroll;
+    padding:5px
+}
+
+
+.messages__tools .input-file input{
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+}

@@ -1,0 +1,10 @@
+.buttons-container{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    width: 100%;
+}
+
+.auth-container{
+
+}

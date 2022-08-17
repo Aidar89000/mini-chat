@@ -1,0 +1,49 @@
+.rooms-header{
+    display: grid;
+    grid-template-columns:80% 20%;
+    margin: 0 auto;
+    width: 50%;
+    gap:5px
+}
+
+.rooms-header button{
+    height: 55px;
+}
+
+.rooms-container{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    margin-top: 5px;
+}
+
+.room{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 50%;
+    margin: 0 auto;
+    padding: 5px;
+    gap: 10px;
+    border: 1px black inset;
+    border-radius: 5px;
+}
+
+.room:hover{
+   background-color: rgba(173, 173, 173, 0.5);
+    border: 1px black inset;
+}
+
+@media screen and (max-width: 790px) {
+    .room{
+        width: 90%;
+    }
+    .rooms-header{
+        width: 90%;
+    }
+}   
+
+.room__tools{
+    display: flex;
+}
