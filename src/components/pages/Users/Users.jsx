@@ -17,8 +17,8 @@ const Users = (props)=>{
 
     const [searchInp, updateSearch] = useState('')
 
-    const dbUrl = 'https://mini-chat-8284e-default-rtdb.europe-west1.firebasedatabase.app'
-    const dbKey = 'AIzaSyDlZjF_a8QFuAek2rwjJN4tLnZJ8LHvQpM'
+    const dbUrl = 'https://chat-bcb26-default-rtdb.europe-west1.firebasedatabase.app'
+    const dbKey = 'AIzaSyACv4_DLZc9AFuHzzm3Y5lUxUBptWJoMFg'
 
 
     useEffect(e=>{

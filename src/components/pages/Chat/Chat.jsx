@@ -14,7 +14,7 @@ const Chat = (props)=>{
 
     const {user} = useAuth()
 
-    const dbUrl = 'https://mini-chat-8284e-default-rtdb.europe-west1.firebasedatabase.app'
+    const dbUrl = 'https://chat-bcb26-default-rtdb.europe-west1.firebasedatabase.app'
    
     const [message, setMessage] = useState({
         messageText: '',
@@ -44,7 +44,7 @@ const Chat = (props)=>{
     useEffect(e=>{
        getMessages()
        getUserPhoto()
-    })
+    },[])
 
     async function sendMessage(){
         if(message.messageText.length>0||message.messageURL.length>0){

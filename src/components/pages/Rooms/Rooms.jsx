@@ -20,7 +20,7 @@ const Rooms = props =>{
     )
     const {user} = useAuth()
 
-    const dbUrl = 'https://mini-chat-8284e-default-rtdb.europe-west1.firebasedatabase.app'
+    const dbUrl = 'https://chat-bcb26-default-rtdb.europe-west1.firebasedatabase.app'
 
     async function addRoom(){
         if (roomName.length>0){
